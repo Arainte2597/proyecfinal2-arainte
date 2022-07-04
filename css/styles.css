@@ -1,0 +1,64 @@
+.logo{
+    position: relative;
+    left: 550px;
+    height: 20rem;
+}
+body p{
+    font-size: 25px;
+}
+
+/* header{
+    background:linear-gradient(red, yellow, orange)
+} */
+header{
+    background-color: black
+
+}
+main{
+    background-color: white;
+}
+body{
+    font-family: sans-serif;
+    
+}
+header nav ul li{
+    font-size: 18px;
+}
+/* main{
+    background-image: url(https://img.freepik.com/foto-gratis/tablas-madera-textura-fondo_143100-139.jpg?w=2000);
+     background-repeat: no-repeat;
+    background-size: cover;
+} */
+.carousel-inner{
+    max-height: 30rem;
+    
+}
+
+
+footer{
+    /* background:linear-gradient(red, yellow, orange) */
+    background-color: black;
+    
+}
+.face{
+    position: fixed;
+    left: 1px;
+    bottom: 1px; 
+    
+}
+.twitter{
+   
+    position: fixed;
+    left: 140px;
+    bottom: 1px;
+    
+}
+.instagram{
+    
+    position: fixed;
+    left: 280px;
+    bottom: 1px;
+}
+
+    
+  
