@@ -109,11 +109,11 @@ footer{
     background-color: black;
 }
 .mainend{
-    background-image:url(/img/fondomadera2.jpg);
+    background-image:url(../img/fondomadera2.jpg);
 
 }
 .fondo1{
-    background-image:url(/img/fondomadera2.jpg);
+    background-image:url(../img/fondomadera2.jpg);
 }
 .card-text{
     font-size: 10px;
