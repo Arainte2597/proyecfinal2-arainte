@@ -1,64 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.titulo{
+    font-size: 60px;
+    font-family: 'Joan', serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
 .logo{
-    position: relative;
-    left: 550px;
-    height: 20rem;
+    
+    height: 10rem;
+    width: 8rem;
+    
 }
 body p{
     font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Joan', serif;
+    font-family: 'Lexend', sans-serif;
+}
+h2{
+    font-family: 'Joan', serif;
+    font-family: 'Lexend', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    border: solid 2px;
+}
+h5{
+    font-size: 30px;
 }
 
-/* header{
-    background:linear-gradient(red, yellow, orange)
-} */
 header{
-    background-color: black
+    background-image: url(../img/fondo.webp);
 
-}
-main{
-    background-color: white;
-}
-body{
-    font-family: sans-serif;
-    
 }
 header nav ul li{
     font-size: 18px;
 }
-/* main{
-    background-image: url(https://img.freepik.com/foto-gratis/tablas-madera-textura-fondo_143100-139.jpg?w=2000);
-     background-repeat: no-repeat;
-    background-size: cover;
-} */
 .carousel-inner{
     max-height: 30rem;
     
 }
+.boton{
+    padding: 15px;
+    background-color:firebrick;
+    
+}
+.card{
+    margin:15px;
+    background-color:black;
+}
+#seccion1{
+    background-image: url(../img/fondopagos.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
 
-
+}
+.parala{
+    background: fixed no-repeat ;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
 footer{
-    /* background:linear-gradient(red, yellow, orange) */
+    background-image: url(../img/fondo.webp);
+
+}
+.footer{
+    
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    
+}
+.buscanos{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1cm;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+
+}
+.textfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    text-align: center;
+}
+.footertext{
+
+    color: antiquewhite;
+}
+.mainstart{
+    background-image: url(../img/fondomadera2.jpg);
+    
+}
+.mainstart h2{
+    background-color: black;
+   
+}
+.mainend h2{
+    background-color: black;
+}
+.mainend{
+    background-image:url(/img/fondomadera2.jpg);
+
+}
+.fondo1{
+    background-image:url(/img/fondomadera2.jpg);
+}
+.card-text{
+    font-size: 10px;
+}
+.card-body{
+    height: 100px;
+}
+.card-bodyy{
+    height: 120px;
+}
+.contact{
+    background-image: url(../img/fondomadera2.jpg);
+}
+footer h2{
     background-color: black;
     
 }
-.face{
-    position: fixed;
-    left: 1px;
-    bottom: 1px; 
-    
+.card h5{
+    font-size: 25px;
 }
-.twitter{
-   
-    position: fixed;
-    left: 140px;
-    bottom: 1px;
-    
-}
-.instagram{
-    
-    position: fixed;
-    left: 280px;
-    bottom: 1px;
-}
-
-    
-  

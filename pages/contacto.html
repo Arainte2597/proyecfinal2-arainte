@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Joan&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Lexend&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Joan&family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto</title>
 </head>
@@ -14,86 +18,124 @@
   <header>
     <div>
       <div>
-        <img class="logo" src="../img/logochicken.jpg" alt="logomycchicken">
+        <img class="logo" src="../img/logonuevo1.jpeg.png" alt="logomycchicken">
       </div>
       <div>
-        <h1 class="titulo">MYC CHICKEN</h1>
-        <h2>Contacto</h2>
+        <h1 class=" col text-center text-danger titulo">MYC CHICKEN .SRL</h1>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="../index.html">home</a></li>
-        <li><a href="./pollos.html">Pollos</a></li>
-        <li><a href="./cerdo.html">Cerdo</a></li>
-        <li><a href="./productoscongelados.html">Productos Congelados</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-dark p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <span class="text-bg-dark fw-bold">INICIO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./cerdo.html">
+                <span class="text-bg-dark fw-bold">CERDO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pollos.html">
+                <span class="text-bg-dark fw-bold">POLLOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productoscongelados.html">
+                <span class="text-bg-dark fw-bold">PRODUCTOS CONGELADOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">
+                <span class="text-bg-dark fw-bold">CONTACTO</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Subscribirse</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
-  <main id="portada">
-    <form>
-      <section>
-        <div>
-          <label for="nombre">Nombre y apellido:</label>
-          <input type="text" id="campo-nombre" placeholder="Juanito Perez" required>
+  <main class="fondo1">
+    <section class="container-fluid text-light text-center">
+      <p>Lunes a Sábados de 10 a 20 hs. Se incluyen pedidos hasta las 19hs.</p>
+      <p>Av. Bernabe Marquez 1294, GBA.</p>
+      <p>Whatsapp 11-26504918</p>
+    </section>
+    
+    <section class="d-flex justify-content-center">
+      <div class="card col-md-5 p-3">
+        <div class="mb-3">
+          <h2 class="text-light text-center">Contacto</h2>
         </div>
-        <div>
-          <label for="email">Email:</label>
-          <input type="email" id="campo-email" placeholder="Ejemplo@gmail.com" required>
+        <div class="mb-2">
+          <form action="">
+            <div  class="mb-4">
+              <label class="text-light" for="nombre">Nombre = </label>
+              <input type="text" name="nombre" id="nombre"
+              placeholder="Diaz Arainte Tomas">
+            </div>
+            <div  class="mb-4">
+              <label class="text-light" for="email">E-mail = </label>
+              <input type="email" name="email" id="nombre"
+              placeholder="Tomasdiazar@gmail.com">
+            </div>
+            <div  class="mb-4">
+              <label class="text-light" for="tel">Telefono = </label>
+              <input type="tel" name="tel" id="tel"
+              placeholder="11-26504918">
+            </div>
+            <div  class="mb-2">
+              <label class="text-light" for="sexo">Sexo = </label>
+              <input type="radio" name="sexo" id="masculino" value="masculino"> Masculino
+              <input type="radio" name="sexo" id="femenino" value="masculino"> Femenino
+              <input type="radio" name="sexo" id="Otro" value="otro"> Otro
+              <div class="mb-2">
+                <textarea name="mensaje" id="mensaje" class="container-fluid"  placeholder="Hola, nos encanta MYC CHICKEN!" cols="55" rows="10"></textarea>
+              </div>
+              <div class="mb-2">
+                <button class="btn btn-primary">Enviar</button>
+              </div>
+          </form>
         </div>
-        <div>
-          <label for="telefono">Telefono:</label>
-          <input type="tel"id="campo-telefono" placeholder="11-26504918" required> 
+      </div>
+    </section>
+    <section>
+      <!--Google map-->
+        <!-- <div id="map-container-google-1" class="z-depth-1-half map-container"> -->
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1772052890433!2d-58.5978654851963!3d-34.57438246345261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb99e9f4b2213%3A0x8708a6bdfa8add20!2sM%20Y%20C%20CHICKEN%20S.R.L!5e0!3m2!1ses-419!2sar!4v1657564965848!5m2!1ses-419!2sa" height="450" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div>
-          <p>Dejanos tu comentario!</p>
-          <textarea id="campo-texto" cols="30" rows="10" placeholder="Hola! nos encanta MYC CHICKEN"></textarea>
-        </div>
-        <div>
-          <button class="boton" type="submit">ENVIAR</button>
-          <button class="boton" type="reset">BORRAR FORMULARIO</button>
-        </div>
-      </section>
-    </form>    
+
+      <!--Google Maps-->
+    </section>
   </main>
-  <footer id="footer">
-    <div>
-      <div>
-        <h3>AYUDA</h3>
+  <footer>
+    <div class="footer container fluid">
+      <div class="buscanos">
+        <h2>Buscanos En Nuestras Redes</h2>
       </div>
-      <div>
-        <h4>Como comprar</h4>
-        <h4>Preguntas frecuentes</h4>
-        <h4>Problemas de compra</h4>
-        <h4>terminos y condiciones</h4>
-        <h4>politica de privacidad</h4>
-      </div>
-      
-      <div>
-        <a class="face" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img src="../img/fblogo.png"></a>
-      </div>
-      <div>
-        <a class="twitter" href="http://twitter.com/polleria_moreno?lang=es"><img src="../img/twitterlogo.png"></a>
-      </div>
-      <div>
-        <a class="instagram" href="http://www.instagram.com/granjaadt/"><img src="../img/instagramlogo.jpg"></a>
-      </div>
-      <div>
-        <div>
-          <h3>Donde encontrarnos?</h3>
-        </div>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1772052890265!2d-58.597865485011596!3d-34.57438246345304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb99e9f4b2213%3A0x8708a6bdfa8add20!2sM%20Y%20C%20CHICKEN%20S.R.L!5e0!3m2!1ses!2sar!4v1653612561611!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/visa.png" alt="">
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/master.png" alt="">
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/mercadopago.png" alt="">
-      </div>
+      <div class="redes">
+        <a class="redes" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img height="50" width="50" src="../img/fblogo.png"></a>
+    
+        <a class="redes" href="http://twitter.com/polleria_moreno?lang=es"><img height="50" width="50" src="../img/twitterlogo.png"></a>
+
+        <a class="redes" href="http://www.instagram.com/granjaadt/"><img class="" height="50" width="50" src="../img/instagramlogo.jpg"></a>
     </div>
+    </div>
+    <div class="textfooter container-fluid">
+      <div class="footertext">
+        <h5>© 2022 Avicola MYC CHICKEN.SRL | Todos los derechos reservados. AV BERNABE MARQUEZ 1294 - Gran Buenos Aires - Buenos Aires - Argentina. </h5>
+      </div>
+    </div> 
   </footer>
+  <script src="../js/bootstrap.js"></script>
 </body>
 </html>

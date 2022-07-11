@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Joan&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Lexend&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Joan&family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Pollos</title>
 </head>
@@ -14,83 +18,143 @@
   <header>
     <div>
       <div>
-        <img class="logo" src="../img/logochicken.jpg" alt="logomycchicken">
+        <img class="logo" src="../img/logonuevo1.jpeg.png" alt="logomycchicken">
       </div>
       <div>
-        <h1 class="titulo">MYC CHICKEN</h1>
-        <h2>Pollos</h2>
+        <h1 class=" col text-center text-danger titulo">MYC CHICKEN .SRL</h1>
       </div>
     </div>
-    <nav>
-      <ul>
-        <li><a href="../index.html">home</a></li>
-        <li><a href="./cerdo.html">Cerdo</a></li>
-        <li><a href="./productoscongelados.html">Productos congelados</a></li>
-        <li><a href="./contacto.html">contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-dark p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <span class="text-bg-dark fw-bold">INICIO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./cerdo.html">
+                <span class="text-bg-dark fw-bold">CERDO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pollos.html">
+                <span class="text-bg-dark fw-bold">POLLOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productoscongelados.html">
+                <span class="text-bg-dark fw-bold">PRODUCTOS CONGELADOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">
+                <span class="text-bg-dark fw-bold">CONTACTO</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Subscribirse</button>
+          </form>
+        </div>
+      </div>
     </nav>
   </header>
-  <main id="portada">
-    <div>
-      <div>
-        <img class="productos" src="../img/milanga.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas aperiam nesciunt cumque dolor aliquid iusto beatae doloremque quis. Qui dolorum voluptatibus unde quia enim est, perferendis ex optio corporis quae.</p>
-      </div>
-      <div>
-        <img class="productos" src="../img/pataymuslo.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolorem nisi voluptatum beatae laudantium culpa vel modi maxime, vero laboriosam enim molestiae id ad delectus qui officia dolores debitis nam.</p>
-      </div>
-      <div>
-        <img class="productos" src="../img/supremas.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sequi nam perferendis nemo officia molestias quaerat facere, aut quia ratione voluptatum, ipsa neque ducimus explicabo voluptates ullam. Tenetur, dolore harum?</p>
-      </div>
-      <div>
-        <img class="productos" src="../img/polloentero.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto explicabo, quisquam, aspernatur perferendis quidem aperiam doloremque veritatis cupiditate facilis deserunt, in possimus eos. Vero dolorum est consectetur, dolores autem pariatur.</p>
-      </div>
-    </div>
-  </main>
-  <footer id="footer">
-    <div>
-      <div>
-        <h3>AYUDA</h3>
-      </div>
-      <div>
-        <h4>Como comprar</h4>
-        <h4>Preguntas frecuentes</h4>
-        <h4>Problemas de compra</h4>
-        <h4>terminos y condiciones</h4>
-        <h4>politica de privacidad</h4>
-      </div>
-      <div>
-        <a class="face" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img src="../img/fblogo.png"></a>
-      </div>
-      <div>
-        <a class="twitter" href="http://twitter.com/polleria_moreno?lang=es"><img src="../img/twitterlogo.png"></a>
-      </div>
-      <div>
-        <a class="instagram" href="http://www.instagram.com/granjaadt/"><img src="../img/instagramlogo.jpg"></a>
-      </div>
-      <div>
-        <div>
-          <h3>Donde encontrarnos?</h3>
+  <main class="fondo1">
+    <section>
+      <article>
+        <div class="card-group">
+          <div class="card">
+            <img src="../img/polloentero.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <!-- <button type="button" class="btn btn-danger btn-lg"> <img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar</button> -->
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/pollocampo.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/conejo.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/pollo-parri.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/pollodeshue.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
         </div>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1772052890265!2d-58.597865485011596!3d-34.57438246345304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb99e9f4b2213%3A0x8708a6bdfa8add20!2sM%20Y%20C%20CHICKEN%20S.R.L!5e0!3m2!1ses!2sar!4v1653612561611!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </article>
+      <article>
+          <div class="card-group">
+            <div class="card">
+              <img src="../img/alita.jpg" class="card-img-top" height="300px"  alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/pata y muslo.jpg" class="card-img-top" height="300px"  alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/churras-pollo.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/supremas.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/menudo.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+          </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer container fluid">
+      <div class="buscanos">
+        <h2>Buscanos En Nuestras Redes</h2>
       </div>
-      <div>
-        <img class="tarjetas" src="../img/visa.png" alt="">
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/master.png" alt="">
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/mercadopago.png" alt="">
-      </div>
+      <div class="redes">
+        <a class="redes" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img height="50" width="50" src="../img/fblogo.png"></a>
+    
+        <a class="redes" href="http://twitter.com/polleria_moreno?lang=es"><img height="50" width="50" src="../img/twitterlogo.png"></a>
+
+        <a class="redes" href="http://www.instagram.com/granjaadt/"><img class="" height="50" width="50" src="../img/instagramlogo.jpg"></a>
     </div>
+    </div>
+    <div class="textfooter container-fluid">
+      <div class="footertext">
+        <h5>© 2022 Avicola MYC CHICKEN.SRL | Todos los derechos reservados. AV BERNABE MARQUEZ 1294 - Gran Buenos Aires - Buenos Aires - Argentina. </h5>
+      </div>
+    </div> 
   </footer>
+  <script src="../js/bootstrap.js"></script>
 </body>
 </html>

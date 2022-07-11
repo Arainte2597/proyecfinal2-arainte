@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Joan&family=Montserrat&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Lexend&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Joan&family=Lexend&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>productos congelados</title>
 </head>
@@ -15,80 +19,176 @@
   <header>
     <div>
       <div>
-        <img class="logo" src="../img/logochicken.jpg" alt="logomycchicken">
+        <img class="logo" src="../img/logonuevo1.jpeg.png" alt="logomycchicken">
       </div>
       <div>
-        <h1 class="titulo">MYC CHICKEN</h1>
-        <h2>Congelados</h2>
-      </div>
-    </div>
-      
-    <!-- nav -->
-      <nav>
-        <ul>
-          <li><a href="../index.html">home</a></li>
-          <li><a href="./pollos.html">Pollos</a></li>
-          <li><a href="./cerdo.html">Cerdo</a></li>
-          <li><a href="./contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-  </header>
-  <main id="portada">
-    <div>
-      <div>
-       <img class="productos" src="../img/patitas.jpg" alt="">
-       <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In architecto consequatur exercitationem laborum optio impedit id, ab veritatis nam quasi, quidem voluptatibus dicta fugiat necessitatibus. Sunt quas nesciunt illo commodi?</p>
-      </div>
-      <div>
-        <img class="productos" src="../img/nuggets.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae quasi voluptates doloremque non nemo hic suscipit natus voluptatum qui. In, nisi cumque! Incidunt, libero eaque. Corrupti dolore autem asperiores quas.</p>
-      </div>
-      <div>
-        <img class="productos" src="../img/medallon pollo.jpg" alt="">
-        <img class="carrito" src="../img/carrito.png" alt="">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum rerum tempora mollitia! Cum, placeat vel doloremque tempore culpa nam veritatis consequuntur voluptas voluptatum aliquid, enim tenetur impedit quaerat voluptate. Ipsum.</p>
+        <h1 class=" col text-center text-danger titulo">MYC CHICKEN .SRL</h1>
       </div>
     </div>
-  </main>
-  <footer id="footer">
-    <div>
-      <div>
-        <h3>AYUDA</h3>
-      </div>
-      <div>
-        <h4>Como comprar</h4>
-        <h4>Preguntas frecuentes</h4>
-        <h4>Problemas de compra</h4>
-        <h4>terminos y condiciones</h4>
-        <h4>politica de privacidad</h4>
-      </div>
-      <div>
-        <a class="face" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img src="../img/fblogo.png"></a>
-      </div>
-      <div>
-        <a class="twitter" href="http://twitter.com/polleria_moreno?lang=es"><img src="../img/twitterlogo.png"></a>
-      </div>
-      <div>
-        <a class="instagram" href="http://www.instagram.com/granjaadt/"><img src="../img/instagramlogo.jpg"></a>
-      </div>
-      <div>
-        <div>
-          <h3>Donde encontrarnos?</h3>
+    <nav class="navbar navbar-expand-lg bg-dark p-1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <span class="text-bg-dark fw-bold">INICIO</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./cerdo.html">
+                <span class="text-bg-dark fw-bold">CERDO</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pollos.html">
+                <span class="text-bg-dark fw-bold">POLLOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./productoscongelados.html">
+                <span class="text-bg-dark fw-bold">PRODUCTOS CONGELADOS</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">
+                <span class="text-bg-dark fw-bold">CONTACTO</span>
+              </a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="email">
+            <button class="btn btn-primary btn-primary-outline-success" type="button">Subscribirse</button>
+          </form>
         </div>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.1772052890265!2d-58.597865485011596!3d-34.57438246345304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb99e9f4b2213%3A0x8708a6bdfa8add20!2sM%20Y%20C%20CHICKEN%20S.R.L!5e0!3m2!1ses!2sar!4v1653612561611!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div>
-        <img class="tarjetas" src="../img/visa.png" alt="">
+    </nav>
+  </header>
+  <main class="fondo1">
+    <section class="cardc">
+      <article>
+        <div class="card-group">
+          <div class="card">
+            <img src="../img/med-espi-merlu.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/med-espi.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/med-pollocroc.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/med-jyq.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/milanesas merluza.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article>
+          <div class="card-group">
+            <div class="card">
+              <img src="../img/bocaditos.jpg" class="card-img-top" height="300px"  alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/nuggets.jpg" class="card-img-top" height="300px"  alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/muzarela.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/patitasjyq.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../img/patitas-chedar.jpg" class="card-img-top" height="300px" alt="...">
+              <div class="card-body text-center">
+                <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+              </div>
+            </div>
+          </div>
+      </article>
+      <article>
+        <div class="card-group">
+          <div class="card">
+            <img src="../img/filet-hiervas.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/formitas.jpg" class="card-img-top" height="300px"  alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/rabas.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/barri-merlu.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../img/jobito.jpg" class="card-img-top" height="300px" alt="...">
+            <div class="card-body text-center">
+              <a class="btn btn-danger " href="./contacto.html" role="button"><img src="../img/carrito2.png" height="40" width="40" alt="" >Comprar </a>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <div class="footer container fluid">
+      <div class="buscanos">
+        <h2>Buscanos En Nuestras Redes</h2>
       </div>
-      <div>
-        <img class="tarjetas" src="../img/master.png" alt="">
-      </div>
-      <div>
-        <img class="tarjetas" src="../img/mercadopago.png" alt="">
+      <div class="redes">
+          <a class="redes" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img height="50" width="50" src="../img/fblogo.png"></a>
+      
+          <a class="redes" href="http://twitter.com/polleria_moreno?lang=es"><img height="50" width="50" src="../img/twitterlogo.png"></a>
+
+          <a class="redes" href="http://www.instagram.com/granjaadt/"><img class="" height="50" width="50" src="../img/instagramlogo.jpg"></a>
       </div>
     </div>
+    <div class="textfooter container-fluid">
+      <div class="footertext">
+        <h5>© 2022 Avicola MYC CHICKEN.SRL | Todos los derechos reservados. AV BERNABE MARQUEZ 1294 - Gran Buenos Aires - Buenos Aires - Argentina. </h5>
+      </div>
+    </div> 
   </footer>
+  <script src="../js/bootstrap.js"></script>
 </body>
 </html>

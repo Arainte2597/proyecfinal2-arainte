@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joan&family=Lexend&family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Joan&family=Lexend&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>home</title>
@@ -11,12 +17,14 @@
   <body>
     <!----------- header ------------->
    <header>
-      <div>
-        <div></div>
-          <img class="logo" src="./img/logochicken.jpg" alt="logomycchicken">
-        </div>
-        <div>
-          <h1 class="text-center text-light titulo">MYC CHICKEN .SRL</h1>
+      <div class="container-fluid">
+        <div class="row">
+          <div>
+            <img class="logo" src="./img/logonuevo1.jpeg.png" alt="logomycchicken">
+          </div>
+          <div>
+            <h1 class=" col text-center text-danger titulo">MYC CHICKEN .SRL</h1>
+          </div>
         </div>
       </div>
       <nav class="navbar navbar-expand-lg bg-dark p-1">
@@ -60,84 +68,225 @@
     </header>
     <!------------ main -------------->
     <main>
-        <div id="carouselExampleSlidesOnly" class="carousel      slide"   data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval=3000>
-            <img src="./img/staff1.webp" class="d-block w-100" height="400px" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval=3000>
-            <img src="./img/staff6.jpg" class="d-block w-100" height="400px" alt="...">
-          </div>
-          <div class="carousel-item" data-bs-interval=3000>
-            <img src="./img/staff5.jpg" class="d-block w-100" height="400px"  alt="...">
-          </div>
-        </div>
+      <section class="mainstart">
+          <article>
+            <div id="carouselExampleSlidesOnly" class="carousel      slide"   data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval=3000>
+                  <img src="./img/staff1.webp" class="d-block w-100" height="400px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval=3000>
+                  <img src="./img/staff5.jpg" class="d-block w-100" height="400px" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval=3000>
+                  <img src="./img/staff6.jpg" class="d-block w-100" height="400px"  alt="...">
+                </div>
+              </div>
+            </div>
+          </article>
+       <div class="text-center text-light">
+        <h2>La mejor Carne Argentina</h2>
        </div>
-       <section class="container-fluid">
-            <div class="row">
-              <div>
-                <h3 class="text-center fs-15 text-dark">Quienes somos?</h3>
-              </div>
-              <div class="col-lg-6 text-center">
-                <img class="local" width="400" src="./img/local2.jpg"></div>
-                <p class="col-lg-6 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore nam ipsum aut vero eius sit corporis cum necessitatibus, qui rem amet repellat earum reiciendis facilis, est dolorem quis cumque quam, quaerat placeat voluptatum a! Tenetur dolorum error veritatis itaque suscipit aliquam saepe. </p>
-              </div>
-            </div> 
-        </section>
-        <section class="container-fluid">
-          <div class="row">
-            <div>
-              <h3 class="text-center fs-15 text-dark">Cuidados de Nuestros Productos</h3>
-            </div>
-            <div class="col-lg-6 text-center">
-              <img class="local" width="400" src="./img/cuidadoschicken.jpg"></div>
-              <p class="col-lg-6 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore nam ipsum aut vero eius sit corporis cum necessitatibus, qui rem amet repellat earum reiciendis facilis, est dolorem quis cumque quam, quaerat placeat voluptatum a! Tenetur dolorum error veritatis itaque suscipit aliquam saepe. </p>
-            </div>
-        </section>
-        <section class="container-fluid">
-          <div class="row">
-            <div>
-              <h3 class="text-center fs-15 text-dark">Los Mejores Precios</h3>
-            </div>
-            <div class="col-lg-6 text-center">
-              <img class="local"width="400" src="./img/carne.jpg"></div>
-              <p class="col-lg-6 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore nam ipsum aut vero eius sit corporis cum necessitatibus, qui rem amet repellat earum reiciendis facilis, est dolorem quis cumque quam, quaerat placeat voluptatum a! Tenetur dolorum error veritatis itaque suscipit aliquam saepe. </p>
-          </div> 
-      </section>
-      <section class="container-fluid">
+       <article class="container-fluid">
         <div class="row">
-          <div>
-            <h3 class="text-center fs-15 text-dark">Envios a Todo El Pais!</h3>
+          <div class="col-lg-6">
+            <img class="container-fluid"  src="./img/Carne.webp" height="300px" width="650px" alt="">
           </div>
-          <div class="col-lg-12 text-center">
-            <p class="col-lg-12 text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum inventore nam ipsum aut vero eius sit corporis cum necessitatibus, qui rem amet repellat earum reiciendis facilis, est dolorem quis cumque quam, quaerat placeat voluptatum a! Tenetur dolorum error veritatis itaque suscipit aliquam saepe.  </p>
-            <img class="envios "src="./img/envios4.jpg"></div>
-        </div> 
-    </section>
-    </main>
-    <!---------- footer ----------->
-  <footer>
-          <div>
-             <h3 class="text-center text-light ">AYUDA</h3>
-          </div>
-      <section class="container-fluid">
-        <div class="row ">
-            <h4 class="text-center text-light mb-5 col-lg-6">Como Comprar</h4>
-            <h4 class="text-center text-light mb-5 col-lg-6">Preguntas frecuentes</h4>
-            <h4 class="text-center text-light mb-5 col-lg-6">Problemas de compra</h4>
-            <h4 class="text-center text-light mb-5 col-lg-6">Terminos y condiciones</h4>
-            <h4 class="text-center text-light mb-5 col-lg-12">Politica de privacidad</h4>
+          <div class="text-light col-lg-6 ">
+            
+              <p>Cuando compres en MYC CHICKEN.SRL, podés estar seguro de que vas a comprar carne de la más alta calidad, con cortes cuidados, y precios correctos. Pechito , Bondiola , Jamon o algo más especial? Estamos seguros de que tenemos lo que buscás.Cualquiera que sea el corte, de la manera que te gusta, nosotros lo tenemos.</p>
+           </div>
         </div>
+       </article>
+       <div class="text-center text-light">
+       <h2>Cuidados De Nuestros Productos</h2>
+       </div>
+      
+       <article class="container-fluid">
+        <div class="row">
+          <div class="text-light col-lg-6 ">
+            
+              <p>
+                Contamos con un gran equipo de trabajo y un área de calidad liderada por una licenciada en alimentos para lograr y garantizar la calidad de nuestros productos con un único propósito; la satisfacción de nuestros clientes. Nuestras instalaciones están físicamente ubicadas en Villa Bosch.</p>
+           </div>
+           <div class="col-lg-6 container-fluid ">
+            <img class="container-fluid"  src="./img/cuidado2.jpg" height="300px" width="650px" alt="">
+          </div>
+        </div>
+       </article>
+          <div class="text-center text-light">
+            <h2>Quienes Somos?</h2>
+          </div>
+       <article class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 ">
+            <img class="container-fluid"  src="./img/nosotros2.jpg" height="300px" width="650px"   alt="">
+          </div>
+          <div class="text-light col-lg-6 ">
+            <p>
+              Nuestros empleados están formados tradicionalmente para darte los mejores cortes. Cada miembro de MYC CHICKEN tiene sus propios intereses y habilidades especiales. Algunos son aficionados de la cerveza artesanal, otros son amantes del vino y algunos se llaman expertos en la parrilla. Sabemos lo que hacemos cuando se trata de recomendar la mejor opción para vos y tu familia.</p>
+              
+           </div>
+        </div>
+       </article>
       </section>
-          <div>
-            <a class="face" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img height="50" width="50" src="./img/fblogo.png"></a>
+      <!-----------------pagos-------------- -->
+      <section class="parala" id="seccion1">
+          <div class=" row d-flex justify-content-evenly container-fluid m-5">
+             <div class="col-5">
+               <img class="" src="./img/transfer.png" height="50px" alt="">
+               <p class="text-light">EFECTIVO</p>
+            </div>
+            <div class="col-4">
+              <img class="" src="./img/transfer2.png" height="50px" alt="">
+              <p class="text-light">DEB/CRED</p>
+            </div>
+            <div class="col-2 ">
+              <img class="" src="./img/transfer3.png" height="50px" alt="">
+              <p class="text-light ">M.P</p>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-secondary" type="button">Consultar!</button>
+            </div>
           </div>
+      </section>
+      <!----------------------- main2 -------------------->
+      <section class="mainend">
+        <article>
           <div>
-            <a class="twitter" href="http://twitter.com/polleria_moreno?lang=es"><img height="50" width="50" src="./img/twitterlogo.png"></a>
+          <h2 class="text-center text-light">
+            CERDO
+          </h2>
           </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="./img/lechon.jpg" class=" card-img-top " height="400px"  alt="...">
+              <div class="card-bodyy">
+                <h5 class="text-light text-center ">LECHON</h5>
+                <div class="text-end">
+                  <a class="btn btn-danger " href="./pages/cerdo.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/pechito.jpg" class="card-img-top" height="400px"  alt="...">
+              <div class="card-bodyy">
+                <h5 class="text-light text-center">PECHITO</h5>
+                <div class="text-end">
+                  <a class="btn btn-danger " href="./pages/cerdo.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./img/bondiola.jpg" class="card-img-top" height="400px" alt="...">
+              <div class="card-bodyy">
+                <h5 class="text-light text-center">BONDIOLA</h5>
+                <!-- <p class="text-light">Bondiola Fresca o congelada! Entero o cortado! como mas te guste a solo $800/k.</p> -->
+                <div class="text-end">
+                  <a class="btn btn-danger " href="./pages/cerdo.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article>
           <div>
-            <a class="instagram" href="http://www.instagram.com/granjaadt/"><img class="d-flex" height="50" width="50" src="./img/instagramlogo.jpg"></a>
-          </div>  
+            <h2 class="text-center text-light">
+              POLLO
+            </h2>
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <img src="./img/polloentero.jpg" class="card-img-top" height="400px"  alt="...">
+                <div class="card-bodyy">
+                  <h5 class="text-light text-center">POLLO ENTERO</h5>
+                  <!-- <p class="text-light">Pollo comun o de campo! el que mas te guste! a solo $320/k o por cajon $5800</p> -->
+                  <div class="text-end">
+                    <a class="btn btn-danger " href="./pages/pollos.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/pata y muslo.jpg" class="card-img-top" height="400px"  alt="...">
+                <div class="card-bodyy">
+                  <h5 class="text-light text-center">PATA Y MUSLO</h5>
+                  <!-- <p class="text-light">Pata y muslo frescas enteras o deshuesadas a solo $320/K o 5K $1500</p> -->
+                  <div class="text-end">
+                    <a class="btn btn-danger " href="./pages/pollos.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/supremas.jpg" class="card-img-top" height="400px" alt="...">
+                <div class="card-bodyy">
+                  <h5 class="text-light text-center">SUPREMAS</h5>
+                  <!-- <p class="text-light">Supremas frescas! podes pedirlas enteras o fileteadas a solo $750/K o 3k $2100</p> -->
+                  <div class="text-end">
+                    <a class="btn btn-danger " href="./pages/pollos.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </article>
+        <article>
+          <div>
+            <h2 class="text-center text-light">
+            PRODUCTOS CONGELADOS
+            </h2>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img src="./img/nuggets.jpg" class="card-img-top" height="400px" alt="...">
+              <div class="card-bodyy">
+                <h5 class="text-light text-center">NUGGETS</h5>
+                <!-- <p class="text-light">Nuggets 100% suprema , perfecto para los chicos, a solo $500/k o caja completa!.</p> -->
+                <div class="text-end">
+                  <a class="btn btn-danger " href="./pages/productoscongelados.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+                </div>
+              </div>
+            </div>
+          <div class="card">
+            <img src="./img/patitasjyq.jpg" height="400px" class="card-img-top" alt="...">
+            <div class="card-bodyy">
+              <h5 class="text-light text-center">PATITAS</h5>
+              <!-- <p class="text-light">Patitas 100% suprema , que esperas para tenerlos? a solo $500/k o caja completa!.</p> -->
+              <div class="text-end">
+                <a class="btn btn-danger " href="./pages/productoscongelados.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./img/med-jyq.jpg" class="card-img-top" height="400px" alt="...">
+            <div class="card-bodyy">
+              <h5 class="text-light text-center">MEDALLON JYQ</h5>
+              <!-- <p class=" text-light">Medallon rellenos de supremas con jamon y queso! riquisimos! a solo $550/k</p> -->
+              <div class="text-end">
+                <a class="btn btn-danger " href="./pages/productoscongelados.html" role="button"><img class="" src="./img/carrito2.png" height="40" width="40" alt="" >Comprar</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!---------------------- footer -------------------->
+  <footer>
+      <div class="footer container fluid">
+        <div class="buscanos">
+          <h2>Buscanos En Nuestras Redes</h2>
+        </div>
+        <div class="redes">
+            <a class="redes" href="http://www.facebook.com/Granja-ADT-112152821348985/?ref=page_internal"><img height="50" width="50" src="./img/fblogo.png"></a>
+        
+            <a class="redes" href="http://twitter.com/polleria_moreno?lang=es"><img height="50" width="50" src="./img/twitterlogo.png"></a>
+
+            <a class="redes" href="http://www.instagram.com/granjaadt/"><img class="" height="50" width="50" src="./img/instagramlogo.jpg"></a>
+        </div>
+      </div>
+      <div class="textfooter container-fluid">
+        <div class="footertext">
+          <h5>© 2022 Avicola MYC CHICKEN.SRL | Todos los derechos reservados. AV BERNABE MARQUEZ 1294 - Gran Buenos Aires - Buenos Aires - Argentina. </h5>
+        </div>
+      </div> 
     </footer>
     <script src="./js/bootstrap.js"></script>
   </body>
